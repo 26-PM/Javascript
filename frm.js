@@ -1,17 +1,15 @@
 // Reduce Map Filter
 
-array=[1,2,3,4,5,6,7,8,9,10]
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
 
 Map
 
-console.log(array.map((e)=>{
-    return e**2;
+console.log(array.map((e) => {
+    return e ** 2;
 })
 )
-
-
 
 
 // Filter
@@ -23,7 +21,6 @@ console.log(array.map((e)=>{
 //     return false;
 // }
 // console.log(array.filter(greaterThen5));
-
 
 
 // Reduce
